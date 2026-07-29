@@ -124,15 +124,23 @@ where
 ### 3. Data Analysis:
 
 -- How many sales we have?
-```sql select count(*) as total_sales from sales;```
+```sql 
+select count(*) as total_sales from sales;
+```
 
 -- How many unique customers we have?
-```sql select count(distinct customer_id) as total_customers from sales;```
+```sql 
+select count(distinct customer_id) as total_customers from sales;
+```
 
 -- How many unique categories we have and Names?
-```sql select count(distinct category) as unique_categories from sales;```
+```sql 
+select count(distinct category) as unique_categories from sales;
+```
 
-```sqlselect distinct category as categories_names from sales;```
+```sql
+select distinct category as categories_names from sales;
+```
 
 ### 4. Data Analysis & Findings:
 
